@@ -1,9 +1,9 @@
 // Include the keyboard library (for USB HID).
 #include <Keyboard.h>
 
-// List of row pins.
+// List of row pins from up to down.
 const int rowPins[] = {6, 7};
-// List of column pins.
+// List of column pins from left to right.
 const int colPins[] = {10, 9, 8};
 // Number of row pins.
 const int numRows = sizeof(rowPins) / sizeof(int);
