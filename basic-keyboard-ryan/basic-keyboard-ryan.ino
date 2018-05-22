@@ -2,9 +2,9 @@
 #include <Keyboard.h>
 
 // List of row pins from up to down.
-const int rowPins[] = {4, 5, 6, 9};
+const int rowPins[] = {3, 7, 8, 9};
 // List of column pins from left to right.
-const int colPins[] = {1, 0, 3, 2, 8, 19, 20, 18, 14, 16, 10, 21};
+const int colPins[] = {0, 4, 1, 2, 6, 20, 19, 21, 15, 18, 10, 16};
 // Number of row pins.
 const int numRows = sizeof(rowPins) / sizeof(int);
 // Number of column pins.

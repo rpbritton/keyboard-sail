@@ -2,9 +2,9 @@
 #include <Keyboard.h>
 
 // List of row pins from up to down.
-const int rowPins[] = {4, 5, 6, 9};
+const int rowPins[] = {5, 6, 7, 9, 8};
 // List of column pins from left to right.
-const int colPins[] = {1, 0, 3, 2, 8, 19, 20, 18, 14, 16, 10, 21};
+const int colPins[] = {4, 3, 20, 19, 18, 15, 14, 16, 10};
 // Number of row pins.
 const int numRows = sizeof(rowPins) / sizeof(int);
 // Number of column pins.
@@ -12,10 +12,11 @@ const int numCols = sizeof(colPins) / sizeof(int);
 
 // The keyboard layout!
 const char layout[numRows][numCols] = {
-  {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l'},
-  {'m', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x'},
-  {'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0'},
-  {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l'},
+  {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'},
+  {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'},
+  {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'},
+  {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'},
+  {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'},
 };
 
 // Keeping track of the state of the key.
