@@ -82,4 +82,5 @@ void loop() {
     digitalWrite(rowPins[rowNum], HIGH);
   }
   // When that is done, it does it again, forever.
+  delay(3);
 }
